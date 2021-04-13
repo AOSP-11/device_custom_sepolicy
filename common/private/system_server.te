@@ -1,0 +1,4 @@
+# Use HALs
+hal_client_domain(system_server, hal_lineage_touch)
+
+allow system_server default_android_service:service_manager add;
